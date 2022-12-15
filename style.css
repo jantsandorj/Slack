@@ -1,0 +1,91 @@
+*{
+    list-style: none;
+}
+.containers{
+    max-width: 2100px;
+    width: 100%;
+    margin: auto;
+}
+.logo{
+    background-image: url("./hero-image.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 200px;
+}
+.bg-img{
+    background-image: url("./undraw_wait_in_line_o2aq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+}
+.rightMain{
+    width: 50%;
+}
+main{
+    gap: 60px;
+}
+main div h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+img{
+    width: auto;
+    height: 50px;
+    size: cover;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1280px;
+    margin: auto;
+    gap: 50px;
+}
+.logos>div{
+    width: 30%;
+}
+footer{
+    padding-bottom: 50px;
+}
+@media screen and (max-width:995px) {
+    main{
+        flex-direction: column-reverse;
+    }
+    main>div{
+        width: 100%;
+        margin: 0;
+    }
+    .rightMain{
+        width: 100% !important;
+        padding: 30px;
+    }
+    .bg-img{
+    background-image: url("./undraw_wait_in_line_o2aq.png");
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    }
+    .log-in{
+        width: 100%;
+    }
+    .getStarted{
+        width: 100%;
+    }
+    .logos>div{
+        width: 100%;
+    }
+    .reg{
+        width: 100%;
+    }
+    footer>div{
+        width: 80%;
+        margin: auto;
+    }
+}
